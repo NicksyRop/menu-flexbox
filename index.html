@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
     <title>Flexbox Menu</title>
 </head>
 <body>
@@ -15,8 +16,11 @@
                 <a href="#">Home</a>
             </li>
             <li>
-                <a href="#">Services</a>
-                <ul>
+                <a href="#">Services
+                    <span class="arrow">&#x25BC;</span>
+                </a>
+
+                <ul class="submenu">
                     <li>
                         <a href="#">Adnroid Dev</a>
                     </li>
@@ -24,8 +28,10 @@
                         <a href="#">Ios Dev</a>
                     </li>
                     <li>
-                        <a href="#">Web Dev</a>
-                        <ul>
+                        <a href="#">Web Dev
+                            <span class="arrow">&#x25B6;</span>
+                        </a>
+                        <ul class="submenu-2">
                             <li>
                                 <a href="#">Python</a>
                             </li>
@@ -43,8 +49,10 @@
                 <a href="#">Downloads</a>
             </li>
             <li>
-                <a href="#">FAQs</a>
-                <ul>
+                <a href="#">FAQs
+                    <span class="arrow">&#x25BC;</span>
+                </a>
+                <ul class="submenu">
                     <li>
                         <a href="#">Android</a>
                     </li>
@@ -54,10 +62,13 @@
                 </ul>
             </li>
             <li>
-                <a href="#">About/a>
+                <a href="#">About</a>
             </li>
         </ul>
     </nav>
+    <section id="section">
+        <h1>Hi ,everyone</h1>
+    </section>
 
 </body>
 </html>
